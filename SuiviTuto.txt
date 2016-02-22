@@ -1,0 +1,2 @@
+http://www.jmdoudoux.fr/java/dej/chap-packages-base.htm
+5.2.2. La classe String
