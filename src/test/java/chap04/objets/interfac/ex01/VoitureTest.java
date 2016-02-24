@@ -16,6 +16,7 @@ public class VoitureTest {
 
     public MockOutputStream mockOutputStream;
     protected Voiture voiture;
+    public OutputStream os;
 
     @Before
     public void setUp() throws Exception {
@@ -33,7 +34,7 @@ public class VoitureTest {
     @Test
     public void testAfficherType() throws Exception {
 
-        OutputStream os = mockOutputStream.getOutputStream();
+        os = mockOutputStream.getOutputStream();
 
         // Perform tests
         voiture.afficherType();
