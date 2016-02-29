@@ -1,4 +1,4 @@
-package exceptions;
+package chap07.exceptions;
 
 /**
  * Created by franck on 29/02/16.
