@@ -12,7 +12,6 @@ public class MonThread6 extends Thread {
         try {
             MonThread6 monThread6 = new MonThread6();
             monThread6.start();
-            monThread6.sleep(2000);
             System.in.read();
             monThread6.arreter();
         }catch (Exception e){
@@ -23,9 +22,16 @@ public class MonThread6 extends Thread {
 
     public void run(){
         int i=0;
-        while(actif){
-            System.out.println(""+i);
-            i++;
+        try{
+            while(actif){
+                MonThread6.sleep(2000);
+                System.out.println(""+i);
+                i++;
+            }
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
         }
     }
 

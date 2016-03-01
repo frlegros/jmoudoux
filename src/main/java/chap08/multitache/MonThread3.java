@@ -5,21 +5,19 @@ package chap08.multitache;
  */
 public class MonThread3 implements Runnable{
 
+    private static int nbRun;
 
-
-    public static void main(String[] args){
-
-        MonThread3 monThread3 = new MonThread3();
-        monThread3.start();
-    }
-
-    public void start(){
-        run();
-    }
     public void run() {
-        int i=0;
-        for (i=0;i>10;i++){
-            System.out.println(""+i);
+        int i;
+        System.out.println("Test Monthread3");
+        MonThread3.nbRun++;
+        try{
+            for (i=0;i<100;i++){
+                MonThread6.sleep(2000);
+                System.out.println(MonThread3.nbRun+" > "+i);
+            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
 }
