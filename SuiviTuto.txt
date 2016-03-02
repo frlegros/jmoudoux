@@ -1,2 +1,1 @@
-http://www.jmdoudoux.fr/java/dej/chap-packages-base.htm
-5.5.10. La classe Formatter
+http://www.jmdoudoux.fr/java/dej/partie2.htm

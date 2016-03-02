@@ -5,13 +5,13 @@ import org.junit.Test;
 import tools.mocks.MockOutputStream;
 
 import java.io.OutputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by franck on 01/03/16.
  */
 public class MaClasseTest extends TestCase {
-
-
 
     public MockOutputStream mockOutputStream;
     public OutputStream os;
