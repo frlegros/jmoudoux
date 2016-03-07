@@ -1,2 +1,2 @@
-http://www.jmdoudoux.fr/java/dej/partie3.htm
-19.2. Les interfaces des collections
+http://www.jmdoudoux.fr/java/dej/chap-collections.htm
+19.3.3. La classe ArrayList
