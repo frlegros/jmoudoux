@@ -1,2 +1,2 @@
 http://www.jmdoudoux.fr/java/dej/chap-collections.htm
-19.3.4. Les listes chaînées : la classe LinkedList
+19.3.6. La classe CopyOnWriteArrayList
