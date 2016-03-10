@@ -1,2 +1,2 @@
 http://www.jmdoudoux.fr/java/dej/chap-collections.htm
-19.3.7. Le choix d'une implémentation de type List
+19.4.4. La classe HashSet
