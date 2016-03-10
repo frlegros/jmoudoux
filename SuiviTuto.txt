@@ -1,2 +1,2 @@
 http://www.jmdoudoux.fr/java/dej/chap-collections.htm
-19.4.4. La classe HashSet
+19.4.7. La classe CopyOnWriteArraySet
