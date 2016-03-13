@@ -1,0 +1,3 @@
+Ceci est un fichier de test
+Permet de tester la lecture de flux de fichiers
+Merci beaucoup à jmdoudoux

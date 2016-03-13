@@ -1,2 +1,2 @@
-http://www.jmdoudoux.fr/java/dej/chap-collections.htm
-19.5.7. La classe WeakHashMap
+http://www.jmdoudoux.fr/java/dej/chap-nio2.htm
+21.1. Les entrées/sorties avec Java

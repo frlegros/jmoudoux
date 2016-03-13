@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="chap04.objets.interfac.ex01.VoitureTest" time="0" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="chap04.objets.interfac.ex01.VoitureTest" time="0.02" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="15.0.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,7 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7532"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -22,8 +22,7 @@
     <property name="java.endorsed.dirs" value="/usr/share/java/jdk1.8.0_71/jre/lib/endorsed"/>
     <property name="os.arch" value="i386"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
     <property name="classworlds.conf" value="/home/frlegros/Soft/idea-IC-143.1821.5/plugins/maven/lib/maven3/bin/m2.conf"/>
@@ -62,5 +61,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="chap04.objets.interfac.ex01.VoitureTest" name="testAfficherType" time="0"/>
+  <testcase name="testAfficherType" classname="chap04.objets.interfac.ex01.VoitureTest" time="0.005"/>
 </testsuite>
