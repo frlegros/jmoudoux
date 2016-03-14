@@ -1,2 +1,4 @@
+http://www.jmdoudoux.fr/java/dej/chap-objets-mock.htm
+102.4.3. Exemple de mise en oeuvre de l'injection de dépendances
 http://www.jmdoudoux.fr/java/dej/chap-nio2.htm
 21.1. Les entrées/sorties avec Java
