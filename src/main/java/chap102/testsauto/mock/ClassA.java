@@ -10,7 +10,7 @@ public class ClassA {
         // debut des traitements
         InterfaceB classB = creerClassB();
         //Suite des traitements
-        return "OK";
+        return classB.maMethodeB();
     }
 
     protected InterfaceB creerClassB() {
